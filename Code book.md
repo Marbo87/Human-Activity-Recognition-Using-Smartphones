@@ -10,7 +10,9 @@ The tidy data set 'averages' contains 81 columns (79 features + 2 labels: activi
 
 ### Row data: 
 180 = 6 activities x 30 subjects.
+
 Activities are labeled with a string: walking, walkingupstairs, walkingdownstairs, sitting, standing or laying
+
 Subjects are numbered from 1 to 30.
 
 
