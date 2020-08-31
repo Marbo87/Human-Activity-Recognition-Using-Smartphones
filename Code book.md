@@ -10,7 +10,9 @@ The tidy data set 'averages' contains 81 columns (79 features + 2 labels: activi
 
 ### Row data: 
 180 = 6 activities x 30 subjects.
-Activities are labeled with a string, while subjects are numbered from 1 to 30.
+Activities are labeled with a string: walking, walkingupstairs, walkingdownstairs, sitting, standing or laying
+Subjects are numbered from 1 to 30.
+
 
 ### Column data:
 The 79 variables are labeled as follows:
@@ -27,6 +29,9 @@ Next the variables consist of the following abbreviations:
 | std              | standard deviation | 
 | meanfreq         | mean frequency     | 
 | 'x', 'y' and 'z' | coordinate directions | 
+
+e.g. tbodyaccmeanx: 
+mean value of time signal of body acceleration in x-direction
 
 ### units
 Variables with 'gyro' in their name have units of radians/second (except it also has 'jerk' in its name, see below).
