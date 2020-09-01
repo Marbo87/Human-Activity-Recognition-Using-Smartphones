@@ -7,6 +7,15 @@ date: "31 8 2020"
 output: html_document
 ---
 
+## Coursera Course Project Instructions
+
+You should create one R script called run_analysis.R that does the following.  
+
+* Merges the training and the test sets to create one data set.
+* Extracts only the measurements on the mean and standard deviation for each measurement.
+* Uses descriptive activity names to name the activities in the data set.
+* Appropriately labels the data set with descriptive variable names.
+* From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ## Creating the tidy data set
 The labels of features are read in as tables from a *.txt file and filtered for the labels containing 'mean' or 'std' (79 out of 561).
