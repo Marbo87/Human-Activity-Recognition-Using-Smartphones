@@ -1,5 +1,3 @@
-# Human-Activity-Recognition-Using-Smartphones
-
 ---
 title: "Readme.md"
 author: "Marbo87"
